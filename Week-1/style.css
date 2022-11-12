@@ -1,0 +1,140 @@
+/* ################################################################################## */
+
+body {
+  font-family: "lato", sans-serif;
+  background-color: white;
+}
+
+.album {
+  float: right;
+
+  padding-right: 10px;
+  padding-top: 13px;
+  border-right-width: 20px;
+  margin-right: 390px;
+  color: white;
+}
+
+.headbar {
+  color: white;
+  background-color: #53565b;
+  margin: 0%;
+  /* width: 100%; */
+  padding-left: 2.5%;
+  /* margin-left: 10%; */
+}
+
+.main_content {
+  /* margin-left: 5%; */
+  float: right;
+  width: 95%;
+}
+
+table {
+  margin-left: 35px;
+  width: 80%;
+}
+
+.sidebar {
+  float: left;
+  /* height: 640px; */
+}
+
+.headimg {
+  padding: 20px 20px 20px 10px;
+}
+
+table {
+  font-family: lato, sans-serif;
+  border-collapse: collapse;
+  border: 0;
+  width: 100%;
+}
+
+td,
+th {
+  border: 0px solid;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.footer {
+  position: fixed;
+  background-color: #0079bf;
+  width: 100%;
+  height: 120px;
+  top: 600px;
+  color: white;
+  /* bottom: 0px; */
+}
+
+.imgfooter {
+  width: 90px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.playsong {
+  float: right;
+  padding-top: 15px;
+  padding-right: 1300px;
+  /* padding-bottom: 10px; */
+  border-right-width: 20px;
+  /* margin-right: 600px; */
+}
+
+.playbar {
+  float: right;
+
+  color: black;
+}
+
+/* ################################################################################## */
+
+.sidebar {
+  background: #00bbbb;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 90px;
+  overflow: hidden;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+
+  display: table;
+}
+
+.fa {
+  position: relative;
+  width: 70px;
+  height: 36px;
+  text-align: center;
+  top: 12px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #3863f4;
+}
+
+i {
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  height: 100%;
+}
